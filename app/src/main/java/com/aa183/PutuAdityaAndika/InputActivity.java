@@ -206,10 +206,10 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
 
         if (updateData == true) {
             dbHandler.editBerita(tempBerita);
-            Toast.makeText(this, "Data berita diperbarui", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Data buku diperbarui", Toast.LENGTH_SHORT).show();
         } else {
             dbHandler.tambahBerita(tempBerita);
-            Toast.makeText(this, "Data berita ditambah", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Data buku ditambah", Toast.LENGTH_SHORT).show();
         }
 
 
@@ -217,7 +217,7 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
 
     private void hapusData() {
         dbHandler.hapusData(idberita);
-        Toast.makeText(this, "Data berita dihapus", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Data buku dihapus", Toast.LENGTH_SHORT).show();
     }
 
     private void pilihTanggal() {
